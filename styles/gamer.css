@@ -87,6 +87,9 @@ text-transform: uppercase;margin-left: 1rem;
 .card img{
     width:16.3rem;height: 19.4rem;padding-right: .6rem;padding-left: .6rem;
 }
+.card img:hover{
+    cursor: pointer;border:4px ridge #ff0099;transition-delay: calc(.3s);border-radius:5%;
+}
 .online-games-title{
     display: flex;flex-direction: column;
     align-items: center;
@@ -110,7 +113,7 @@ font-size: 2.7rem;
 font-weight: 700;
 }
 .play-instantly-container{
-    display: flex;align-items: center;margin-left: 15rem;margin-right: 10rem;margin-top: 6rem;margin-bottom: 12.5rem;
+    display: flex;align-items: center;padding-left: 12rem;margin-top: 6rem;margin-bottom: 12.5rem;
 }
 #girl{
     position: relative;top:4.3rem;left: 11rem;
@@ -188,3 +191,59 @@ background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
+@media screen and (max-width:576px) {
+    .nav-container{
+        padding: 0px;margin: 0px;height: 100%;display: flex;flex-direction: column;align-items: center;justify-content: center;padding-left:400px;box-shadow: none;padding-top: 100px;
+    }
+    .nav-description{
+        display: flex;flex-direction: column;padding-top: 30px;padding-bottom: 50px;
+    }
+    .banner-container{display: flex;flex-direction: column;
+    height: 100%;width: 100%;gap: 60px;padding-left: 230px;
+}
+.online-games-container
+{
+    display: flex;flex-direction: column;padding-left: 300px;
+}
+.online-games-title{
+    padding-left: 200px;
+}
+
+
+.play-instantly-container{padding-left: 400px;
+    display: flex;flex-direction: column;
+}
+#girl{
+    position: relative;left: 300px;top: 50px;
+}
+.btns5-container{
+flex: none;
+}
+.btns4-container{
+    flex: none;
+}
+.btns-container{
+    width: 40px;padding-left: 300px;display: flex;flex-direction: column;
+
+}
+.footer-container{
+    margin-left:100px ;padding:0px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
