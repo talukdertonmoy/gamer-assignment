@@ -1,2 +1,149 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 *{font-family: 'Work Sans', sans-serif;}
+*{
+    margin: 0;
+}
+.nav-container{
+    display: flex;justify-content: space-between;align-items: center;height: 100px;padding-left: 12.5rem;padding-right: 12.5rem;
+    background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.game{
+    color: #0B0223;
+font-size: 2.4rem;
+font-weight: 700;
+}
+#game{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.nav-title-container{
+    display: flex;gap: 20px;;
+}
+.nav-description{
+    display: flex;align-items: center;gap: 1.3rem;
+}
+.nav-btn{
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+width: 12.5rem;height: 2.5rem;border: none;color: #3C354F;
+text-align: center;
+font-size: .9rem;
+font-weight: 500;
+}
+/* banner */
+.banner-container{
+    display: flex;justify-content: space-between;align-items: center;padding-left: 12.5rem;padding-right: 4rem;
+}
+.banner-photo img{
+    width: 80% ;
+}
+.play{
+    color: #0B0223;
+text-align: center;
+font-size: 2.5rem;
+font-weight: 600;
+text-transform: uppercase;
+padding-right: 3rem;
+}
+.goat{
+    text-align: center;
+font-size: 5rem;
+font-weight: 800;
+text-transform: uppercase;background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+padding-right: 3rem;padding-bottom: .5rem;
+}
+.small{
+    color: #534C64;
+font-size: 1rem;
+font-weight: 500;padding-top: .4rem;
+}
+.sign-btn{
+    border-radius: 2.6rem;
+background: #FF42A5;border: none;padding: 1rem 2rem 1rem 2rem ;color: #FFF;
+font-size: 1rem;
+font-weight: 600;
+text-transform: uppercase;margin-top: 2.5rem;
+}
+.go-btn{
+    border-radius: 2.6rem;
+background: #4EC5F7;padding: 1rem 2.2rem 1rem 2.2rem;border: none;
+color: #FFF;
+font-size: 1rem;
+font-weight: 600;
+text-transform: uppercase;margin-left: 1rem;
+}
+.banner-description{
+    background: url("../images/Group 14.png");fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
+}
+/* online-games */
+.online-games-container{
+    display: flex;padding-left: 12.5rem;padding-right: 9rem;align-items: center;
+}
+.card img{
+    width:16.3rem;height: 19.4rem;padding-right: .6rem;padding-left: .6rem;
+}
+.online-games-title{
+    display: flex;flex-direction: column;
+    align-items: center;
+}
+.funny{
+    color: #0B0223;
+font-size: 2.7rem;
+font-weight: 700;margin-top: 6rem;margin-bottom: .8rem;
+}
+.collection{
+    color: #534C64;
+font-size: 1rem;
+font-weight: 400;margin-bottom: 2rem;
+}
+#funny-videos{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 2.7rem;
+font-weight: 700;
+}
+.play-instantly-container{
+    display: flex;align-items: center;margin-left: 15rem;margin-right: 10rem;margin-top: 6rem;margin-bottom: 12.5rem;
+}
+#girl{
+    position: relative;top:4.3rem;left: 11rem;
+    width:16.5rem;height: 19rem;}
+#horse{
+    width: 33.5rem;height: 35.9rem;
+}.play-instantly-title{text-align: right;color: #0B0223;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.play-instantly-description{
+    color: #534C64;
+text-align: right;
+font-size: 1rem;
+font-weight: 400;
+}
+#play-instantly{
+    background:linear-gradient(180deg, #ff0099 0%, #7f6bac 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.btn{
+    border-radius: 50px;
+background: #FFF;
+width: 13.75rem;height: 4.7rem;border: none;display: flex;align-items: center;gap: 1rem;color: #0B0223;
+font-size: 1rem;
+font-weight: 600;margin: 1rem;
+}
+.btns5-container{
+        display:flex; justify-content: center;}
+.btns4-container{
+    display: flex;justify-content: center;
+}
+.btn:hover{cursor: pointer;color: #ff0099;border: 1px solid #ff0099}
